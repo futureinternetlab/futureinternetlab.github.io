@@ -8,3 +8,23 @@ iframe {
 		height: 100vh;
 		border: none;
 	}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+	iframe {
+		width: 568px;
+		height: 320px;
+	}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+	iframe {
+		width: 320px;
+		height: 568px;
+	}
+}

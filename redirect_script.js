@@ -1,9 +1,9 @@
 
 $(document).ready(function(){
 
-	// First we need to redirect to GWIQ, to read the 'gwid' value from the cookie
+	// MIRROR IMAGE: First we need to redirect to GWIQ, to read the 'gwid' value from the cookie
 
-	// Then we'll redirect back to futureinternetlab.com, passing the 'gwid' as a variable
+	// MIRROR IMAGE: Then we'll redirect back to futureinternetlab.com, passing the 'gwid' as a variable
 
 	// Next we'll append the 'gwid' to the end of the survey link
 
