@@ -14,8 +14,8 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : landscape) {
 	iframe {
-		width: 568px;
-		height: 320px;
+		width: 100%;
+		height: 100vh;
 	}
 }
 
@@ -24,7 +24,7 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : portrait) {
 	iframe {
-		width: 320px;
-		height: 568px;
+		width: 100%;
+		height: 100vh;
 	}
 }
