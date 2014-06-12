@@ -8,7 +8,7 @@ $(document).ready(function(){
 	// Next we'll append the 'gwid' to the end of the survey link
 
 	var gwid = "xyz"
-	var iframeURL = "<div class='frame-container'><iframe src='https://futureinternetlab.typeform.com/to/ACu24s?gwid=" + gwid + "'" + "scrolling='no'></iframe></div>"
+	var iframeURL = "<iframe src='https://futureinternetlab.typeform.com/to/ACu24s?gwid=" + gwid + "'" + "scrolling='no'></iframe>"
 	
 	//Finally we'll load the iframe into the body element, with the full survey URL including 'gwid' used as the iframe source
 	$('body').html(iframeURL);
